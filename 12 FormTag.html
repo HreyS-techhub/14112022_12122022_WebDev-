@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Tag</title>
+    </head>
+    <body>
+        <!-- Difference b/t inline and block level Tags -->
+        <p style="border:1px solid black">Block level Tag</p>
+        h1-h6,p,table,tr,td,th,li
+        <b style="border:1px solid black">Inline Level Tag</b> <br><br>
+        <form>
+        <fieldset>
+        <legend>Personal Details</legend>
+        <!-- Text Input -->
+        <div>
+            <label for="Name">Student Name:</label>
+            <input type="text" placeholder="Enter your first name" required> <br><br>
+        </div>
+        <!-- Mail input -->
+        <div>
+            <label for="mailid">Email:</label>
+            <input type="email" placeholder="College id"> <br><br>
+        </div>
+        <!-- Date Input -->
+        <div>
+            <label for="DOB">Date of birth:</label>
+            <input type="date"> <br><br>
+        </div>
+        <!-- Phone number Input -->
+        <div>
+            <label for="Phone">Phone Number</label>
+            <input type="tel"> <br><br>
+        </div>
+        <!-- Number Input -->
+        <div>
+            <label for="Age">Age:</label>
+            <input type="number" min="25" max="50"> <br><br>
+        </div>
+        </fieldset>
+        <!-- Password input -->
+        <div>
+            <label for="Aadhar">Aadhaar num:</label>
+            <input type="password" placeholder="Enter you 12 digit num" required>
+        </div>
+        <!-- Radio button input -->
+        <div>
+            <label for="Gender">Gender</label> <br>
+            <input type="radio" name="asdf"> Male <br>
+            <input type="radio" name="asdf"> Female <br>
+            <input type="radio" name="asdf"> Transgender
+        </div>
+        <!-- Checkbox input -->
+        <div>
+            <label for="Languages">Known Languages:</label> <br>
+            <input type="checkbox" value="Tamil"  checked>Tamil <br>
+            <input type="checkbox" value="English">English <br>
+            <input type="checkbox" value="Malayam">Malayalam <br> <br>
+        </div>
+        <!-- Select & Option Tag -->
+        <div>
+            <label for="subject">Fav Sub:</label>
+            <select>
+                <option value="maths" checked>Maths</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Physics">Physics</option>
+            </select>
+        </div>
+        <!-- Textarea Tag -->
+        <div>
+            <label for="Address">Address</label>
+            <textarea name="address" cols="" rows=""></textarea>  
+        </div>
+        <!-- File input -->
+        <div>
+            <label for="photo">Upload photo</label>
+            <input type="file" multiple>
+        </div>
+        <!-- Range Input -->
+        <div>
+            <label for="range">How much do you like pets?</label>
+            <input type="range">
+        </div>
+        <!-- submit input-->
+        <input type="submit">
+        <!-- reset Input -->
+        <input type="reset">
+        <!-- Button tag -->
+        <button type="submit">Login</button>
+    </form>
+    </body>
+</html>
